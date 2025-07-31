@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../imagenes/fondo.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+}
+.cabecera{
+    width: 100%;
+    margin-top: 1em;
+    text-align: center;
+    background-color: rgba(11, 59, 181, 0.3);
+    color: bisque;
+}
+.cabecera ul {
+    margin-top: 1em;
+}
+.cabecera li {
+    display: inline;
+    text-decoration: none;
+
+}
+.cabecera a {
+    color: bisque;
+    text-decoration: none;
+    margin: 0em 0em 0em 2em;
+}
+.menu_lateral{
+    background-color: rgba(11, 59, 181, 0.289);
+    width: 30%; 
+    height:80%;
+    color: bisque;
+    text-align: center;;
+}
+.menu_lateral li{
+    margin: 0em 0em 0em 0em; 
+}

@@ -1,33 +1,49 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    
 }
-
 body{
-    background-image: url(../imagenes/fondo.avif);
+    /*background-image: url("../imagenes/corporativo/Richi_8.jpg");*/
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;  
+    background-color: rgb(6, 64, 96);
 }
-.cabecera{
+.menu_cabecera{
     width: 100%;
-    margin-top: 1em;
-    text-align: center;
-    background-color: rgba(11, 59, 181, 0.289);
-    color: bisque;
+    height: 30%;
+    background-color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* o 'flex-start' si prefieres que estén juntos */
+    padding: 10px 20px;
+    flex-wrap: wrap;
 }
-.cabecera ul {
-    margin-top: 1em;
+.menu_cabecera img{
+    width: 2em;
+    height: 100%m;
+    border-radius: 30px; 
+    object-fit: cover;
 }
-.cabecera li {
-    display: inline;
-    text-decoration: none;
+.menu_cabecera p{
+    margin: 0em 3em 0em 0em ;
+    padding: 0em 2em;
 
 }
-.cabecera a {
-    color: bisque;
-    text-decoration: none;
-    margin: 0em 0em 0em 2em;
+.marquesina{
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+    color:rgb(205, 227, 250);
+    text-shadow: rgb(6, 6, 6) 6px 2px;
+    margin: 5em 0em 0em 0em;
+}
+.subtexto{
+    font-size: 30px;
+    color: rgb(202, 211, 221);
+    text-shadow: rgb(80, 142, 146) 0 2px;
+    font-family: "Forte";
 }
