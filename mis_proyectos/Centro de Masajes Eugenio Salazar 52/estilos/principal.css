@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    /*font-weight: <weight>;*/
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+   
+
+body{
+    background-color: rgb(216, 215, 214);
+}
+.cuerpo_pagina{
+    width: 1024px;
+    height: 900px;
+    margin: auto;
+    /*background-color: aqua;*/
+
+}
+.cabecera{
+    margin-top: 20px;
+}
+
+.cabecera_grid {
+  display: grid;
+  grid-template-columns:(1fr,2fr);
+  grid-gap: 0px;
+  grid-auto-rows: (1fr);
+  /*border: 2px solid black;*/
+}
+.logo{
+    background-color: rgb(112, 43, 43);
+    color: rgb(196, 193, 193);
+    font-size: 40px;
+    width: 200px;
+    height: 60px;
+    border-radius: 40px;
+    margin: auto;
+    text-align: center;
+    padding: 14px 0px 0px;
+    letter-spacing: 8px;
+    box-shadow: 10px 20px 5px rgba(0, 0, 0, 0.3); /* Sombra */
+    grid-column: 1;
+    grid-row: 1;
+    z-index: 2;
+    
+    
+}
+.titulo_cabecera {
+    background-color: rgb(112, 43, 43);
+    color: rgb(196, 193, 193);
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px;
+    border-radius: 40px;
+    box-shadow: 10px 20px 5px rgba(0, 0, 0, 0.3); /* Sombra */
+    grid-column: 2;
+    grid-row: 1;
+    
+}
+
+
+.barra_navegacion{
+    margin: 40px auto;
+    text-align: center;
+}
+.barra_navegacion li {
+    display: inline;
+    margin: 0px 20px;
+    
+    
+}
+.barra_navegacion a {
+    text-decoration: none;
+    background-color: rgb(112, 43, 43);
+    color: white;
+    border-radius: 40px;
+    padding: 10px;
+    box-shadow: 10px 20px 5px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+.barra_navegacion a:hover{
+    background-color: rgb(130, 106, 106);
+}
+.contenedor_principal{
+    font-size: 20px;
+    background-color: rgb(130, 106, 106);
+    width: 800px;
+    margin: auto;
+    height: 400px;
+    border-radius: 30px;
+    box-shadow: 10px 20px 5px rgba(0, 0, 0, 0.3); /* Sombra */
+    padding: 30px;
+    color: white;
+}
+.texto_indice{
+    margin: 50px 100px;
+   
+    width: 300px;
+    height: 300;
+}
+.texto_indice p {
+    margin-bottom: 20px;
+   
+}
+.contenedor_principal img{
+    width: 300px;
+    height: 400px;
+    float:right;
+
+}
+
+.contenedor_principal_iframe{
+    margin: 0px 50px;
+    text-align: center;
+}
+
+.tarjeta_de_visita img {
+    
+    width: 600px;
+    height: 300px;
+}
+.logo_reserva{
+    text-align: center;
+}
+.logo_reserva img{
+    margin: 100px auto;
+    height: 100px;
+    width: 300px;
+    background-color: rgb(132, 122, 122);
+}
+.footer {
+    text-align: center;
+    background-color: rgb(130, 106, 106);
+    width: 800px;
+    margin: 30px auto;
+    height: 50px;
+    border-radius: 30px;
+    box-shadow: 10px 20px 5px rgba(0, 0, 0, 0.3); /* Sombra */
+    padding: 30px;
+    color:white;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+.footer a:hover{
+    background-color: blueviolet;
+}

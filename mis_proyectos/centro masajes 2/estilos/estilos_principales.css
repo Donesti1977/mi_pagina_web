@@ -1,0 +1,186 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url("../imagenes/naturaleza/familia_bosque.jpg");
+    background-size: cover; /* Opcional: ajusta la imagen al tamaño del cuerpo */
+    background-repeat: no-repeat; /* Opcional: evita que la imagen se repita */
+    background-attachment: fixed; /* Opcional: Hace que la imagen no se delice con el contenido */
+    
+    
+}
+
+header{
+    color:rgb(240, 234, 215);
+    background-color: rgb(193, 190, 190);
+    width: 100%;
+    height: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+header h1{
+    font-size: 30px;
+    margin: 90px 0px 0px 0px;
+}
+header img{
+    margin: 20px 0px 0px 0px;
+    width: 300px;
+    height: 200px;
+}
+.datos_cabecera{
+    width: 150px;
+    height: 100px;
+    border-left: 1px solid;
+    color:rgb(243, 233, 201);
+    margin: 50px 0px 0px 30px;
+    display: block;
+    font-size: 18px;
+    padding: 20px 0px 0px 20px;
+}
+.datos_cabecera p {
+    margin-bottom: 10px;
+}
+nav{
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+}
+nav ul{
+    text-align: center;
+    color:black;
+}
+
+nav li{
+    display: inline;
+}
+nav a {
+    text-decoration: none;
+    color:rgb(243, 229, 182);
+    margin: 0px 30px;
+    font-size: 24px;
+}
+nav a:hover{
+    border-bottom: 3px solid;
+    border-bottom-color: rgb(243, 233, 201);
+}
+.reservas {
+    background-color: rgb(202, 2, 2);
+    color: white;
+    border-radius: 20px;
+    padding: 8px;
+    font-size: 20px
+
+}
+
+/* Hasta aqui los estilos de la cabecera*/
+
+/* Aqui comienzan los estilos de quienes somos*/
+
+.quienes_somos{
+    background-color: whitesmoke;
+
+}
+.quienes_somos p {
+    width: 600px;
+    padding: 30px 20px 0px 0px;
+    height: 100%;
+    font-size: 22px;
+    margin-left: 100px;
+
+    
+    
+}
+.quienes_somos img {
+    width: 300px;
+    height: 400px;
+    float: right;
+    margin: 50px 100px 0px 0px;
+    border-radius: 20px;
+}
+
+/* Hasta aqui los estilos de quienes somos*/
+
+/* Aqui comienzan los estilos de los terapias*/
+.terapias{
+    padding-top:  20px;
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+}
+.terapias h2{
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+}
+.terapias img{
+    margin: 30px 10px;
+    text-align: center;
+    width: 400px;
+    height: 250px;
+    padding: 20px 0px 0px 0px;
+}
+.terapias figcaption{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Hasta aqui los estilos de los terapias*/
+
+/* Aqui comienzan los estilos de te podemos ayudar*/
+.te_podemos_ayudar{
+    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(193, 190, 190);
+    text-align: center;
+    margin: auto;
+    padding-left: 100px;
+    
+}
+.te_podemos_ayudar h2{
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+}
+.te_podemos_ayudar img {
+    margin: 30px 30px;
+    text-align: center;
+    width: 300px;
+    height: 150px;
+    padding: 20px 0px 0px 0px;
+    border-radius: 80px;
+}
+.te_podemos_ayudar figcaption{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Hasta aqui los estilos de te podemos ayudar*/
+
+/* Aqui comienzan los estilos del pie de página y el de separacion entre secciones*/
+.separacion{
+    width: 100%;
+    height:300px;
+    background-color: rgb(81, 248, 192,0.5);
+}
+.pie_de_pagina{
+    width: 100%;
+    height: 200px;
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+}
+.pie_de_pagina p{
+    margin: 20px auto;
+}
+  
+.pie_de_pagina a{
+    margin: 20px 40px;
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+}
